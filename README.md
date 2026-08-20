@@ -6,6 +6,11 @@ This repository documents my journey of learning SQL from the fundamentals to ad
 
 ---
 
+# SQL Learning Journey
+
+<p align="center">
+  <img src="https://i.pinimg.com/736x/2d/5f/71/2d5f715c0d252e7c4e9c3727931bf710.jpg" width="90">
+</p>
 ## 📚 Topics Covered
 
 ### 🔹 SQL Basics
