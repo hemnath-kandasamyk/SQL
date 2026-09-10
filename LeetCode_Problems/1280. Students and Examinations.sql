@@ -1,12 +1,27 @@
 #1280. Students and Examinations
-SELECT T.student_id,
-T.student_name,
-T.subject_name,
-COUNT(B.subject_name) AS attended_exams
-FROM(SELECT * FROM Students A
-join Subjects B)T
-LEFT JOIN 
-Examinations B
-ON T.student_id = B.student_id AND T.subject_name = B.subject_name
-GROUP BY T.student_id,T.subject_name
-ORDER BY T.student_id;
+  
+SELECT 
+    c.student_id,
+    c.student_name,
+    c.subject_name,
+    IFNULL(e.cnt,0) AS attended_exams    
+FROM
+    (
+        SELECT
+            student_id,
+            subject_name,
+            COUNT(*) cnt
+        FROM Examinations 
+        GROUP BY student_id,subject_name
+    )e
+RIGHT JOIN
+    (
+        SELECT *
+        FROM Students
+        JOIN 
+        Subjects
+    )c
+ON 
+    c.student_id = e.student_id
+    AND c.subject_name = e.subject_name
+ORDER BY c.student_id,c.subject_name 
