@@ -16,14 +16,18 @@ FROM
         category,
         SUM(s.quantity) total_quantity,
         SUM(s.price*s.quantity) total_revenue
-        FROM Sales s
-        LEFT JOIN
-    Products p
+    FROM 
+        Sales s
+    LEFT JOIN
+        Products p
     ON
         s.product_id = p.product_id
     GROUP BY
-        season,category
+        season,
+        category
     ORDER BY
-        season,total_quantity DESC,total_revenue DESC
+        season,
+        total_quantity DESC,
+        total_revenue DESC
 )t
 GROUP BY season
