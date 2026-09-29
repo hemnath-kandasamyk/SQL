@@ -6,11 +6,17 @@ This repository documents my journey of learning SQL from the fundamentals to ad
 
 ---
 
-# SQL Learning Journey
+# SQL Learning Journey <img src="https://i.pinimg.com/736x/2d/5f/71/2d5f715c0d252e7c4e9c3727931bf710.jpg" width="30">
 
 <p align="center">
-  <img src="https://i.pinimg.com/736x/2d/5f/71/2d5f715c0d252e7c4e9c3727931bf710.jpg" width="90">
+  <img
+    src="https://raw.githubusercontent.com/hemnath-kandasamyk/SQL/refs/heads/main/images/sql%2050%20batch.png"
+    alt="LeetCode SQL 50 Badge"
+    width="90"
+  />
 </p>
+<hr>
+
 ## 📚 Topics Covered
 
 ### 🔹 SQL Basics
