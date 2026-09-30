@@ -142,10 +142,10 @@ SQL-Learning/
 | SQL Basics | ✅ |
 | Aggregate Functions | ✅ |
 | Joins | ✅ |
-| Subqueries | ⬜ |
-| CTE | ⬜ |
-| Window Functions | ⬜ |
-| Interview Questions | ⬜ |
+| Subqueries | ✅ |
+| CTE | ✅ |
+| Window Functions | ✅ |
+| Interview Questions | ✅ |
 
 ---
 
